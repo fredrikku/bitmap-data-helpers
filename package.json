@@ -1,0 +1,16 @@
+{
+    "name": "@runkit/1r0d0r1_data-helper-module",
+    "version": "0.0.0-master",
+    "main": "./lib/data-helper-module",
+    "dependencies": {
+        "url": "0.11.0",
+        "promise-http": "0.1.5",
+        "bluebird": "3.4.1",
+        "jszip": "3.1.2",
+        "atob": "2.0.3",
+        "btoa": "1.1.2"
+    },
+    "scripts": {
+        "install": "node scripts/install.js"
+    }
+}

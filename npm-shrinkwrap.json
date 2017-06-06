@@ -1,0 +1,304 @@
+{
+    "name": "@runkit/1r0d0r1_data-helper-module",
+    "version": "0.0.0-master",
+    "dependencies": {
+        "url": {
+            "version": "0.11.0",
+            "from": "https://registry.npmjs.org/url/-/url-0.11.0.tgz",
+            "dependencies": {
+                "punycode": {
+                    "version": "1.3.2",
+                    "from": "https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz"
+                },
+                "querystring": {
+                    "version": "0.2.0",
+                    "from": "https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz"
+                }
+            }
+        },
+        "promise-http": {
+            "version": "0.1.5",
+            "from": "https://registry.npmjs.org/promise-http/-/promise-http-0.1.5.tgz",
+            "dependencies": {
+                "q": {
+                    "version": "2.0.3",
+                    "from": "https://registry.npmjs.org/q/-/q-2.0.3.tgz",
+                    "dependencies": {
+                        "asap": {
+                            "version": "2.0.5",
+                            "from": "https://registry.npmjs.org/asap/-/asap-2.0.5.tgz"
+                        },
+                        "pop-iterate": {
+                            "version": "1.0.1",
+                            "from": "https://registry.npmjs.org/pop-iterate/-/pop-iterate-1.0.1.tgz"
+                        },
+                        "weak-map": {
+                            "version": "1.0.5",
+                            "from": "https://registry.npmjs.org/weak-map/-/weak-map-1.0.5.tgz"
+                        }
+                    }
+                },
+                "q-io": {
+                    "version": "2.0.6",
+                    "from": "https://registry.npmjs.org/q-io/-/q-io-2.0.6.tgz",
+                    "dependencies": {
+                        "q": {
+                            "version": "2.0.3",
+                            "from": "https://registry.npmjs.org/q/-/q-2.0.3.tgz",
+                            "dependencies": {
+                                "asap": {
+                                    "version": "2.0.5",
+                                    "from": "https://registry.npmjs.org/asap/-/asap-2.0.5.tgz"
+                                },
+                                "pop-iterate": {
+                                    "version": "1.0.1",
+                                    "from": "https://registry.npmjs.org/pop-iterate/-/pop-iterate-1.0.1.tgz"
+                                },
+                                "weak-map": {
+                                    "version": "1.0.5",
+                                    "from": "https://registry.npmjs.org/weak-map/-/weak-map-1.0.5.tgz"
+                                }
+                            }
+                        },
+                        "qs": {
+                            "version": "0.6.6",
+                            "from": "https://registry.npmjs.org/qs/-/qs-0.6.6.tgz"
+                        },
+                        "url2": {
+                            "version": "2.0.0",
+                            "from": "https://registry.npmjs.org/url2/-/url2-2.0.0.tgz",
+                            "dependencies": {
+                                "url": {
+                                    "version": "0.7.9",
+                                    "from": "https://registry.npmjs.org/url/-/url-0.7.9.tgz",
+                                    "dependencies": {
+                                        "querystring": {
+                                            "version": "0.1.0",
+                                            "from": "https://registry.npmjs.org/querystring/-/querystring-0.1.0.tgz"
+                                        },
+                                        "punycode": {
+                                            "version": "1.0.0",
+                                            "from": "https://registry.npmjs.org/punycode/-/punycode-1.0.0.tgz"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "mime": {
+                            "version": "1.3.6",
+                            "from": "https://registry.npmjs.org/mime/-/mime-1.3.6.tgz"
+                        },
+                        "mimeparse": {
+                            "version": "0.1.4",
+                            "from": "https://registry.npmjs.org/mimeparse/-/mimeparse-0.1.4.tgz"
+                        },
+                        "collections": {
+                            "version": "2.0.3",
+                            "from": "https://registry.npmjs.org/collections/-/collections-2.0.3.tgz",
+                            "dependencies": {
+                                "mini-map": {
+                                    "version": "1.0.0",
+                                    "from": "https://registry.npmjs.org/mini-map/-/mini-map-1.0.0.tgz"
+                                },
+                                "pop-arrayify": {
+                                    "version": "1.0.0",
+                                    "from": "https://registry.npmjs.org/pop-arrayify/-/pop-arrayify-1.0.0.tgz"
+                                },
+                                "pop-clear": {
+                                    "version": "1.0.0",
+                                    "from": "https://registry.npmjs.org/pop-clear/-/pop-clear-1.0.0.tgz"
+                                },
+                                "pop-clone": {
+                                    "version": "1.0.1",
+                                    "from": "https://registry.npmjs.org/pop-clone/-/pop-clone-1.0.1.tgz",
+                                    "dependencies": {
+                                        "mini-map": {
+                                            "version": "1.0.0",
+                                            "from": "https://registry.npmjs.org/mini-map/-/mini-map-1.0.0.tgz"
+                                        },
+                                        "pop-equals": {
+                                            "version": "1.0.0",
+                                            "from": "https://registry.npmjs.org/pop-equals/-/pop-equals-1.0.0.tgz",
+                                            "dependencies": {
+                                                "mini-map": {
+                                                    "version": "1.0.0",
+                                                    "from": "https://registry.npmjs.org/mini-map/-/mini-map-1.0.0.tgz"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "pop-compare": {
+                                    "version": "1.0.0",
+                                    "from": "https://registry.npmjs.org/pop-compare/-/pop-compare-1.0.0.tgz"
+                                },
+                                "pop-equals": {
+                                    "version": "1.0.0",
+                                    "from": "https://registry.npmjs.org/pop-equals/-/pop-equals-1.0.0.tgz",
+                                    "dependencies": {
+                                        "mini-map": {
+                                            "version": "1.0.0",
+                                            "from": "https://registry.npmjs.org/mini-map/-/mini-map-1.0.0.tgz"
+                                        }
+                                    }
+                                },
+                                "pop-has": {
+                                    "version": "1.0.0",
+                                    "from": "https://registry.npmjs.org/pop-has/-/pop-has-1.0.0.tgz",
+                                    "dependencies": {
+                                        "pop-equals": {
+                                            "version": "1.0.0",
+                                            "from": "https://registry.npmjs.org/pop-equals/-/pop-equals-1.0.0.tgz",
+                                            "dependencies": {
+                                                "mini-map": {
+                                                    "version": "1.0.0",
+                                                    "from": "https://registry.npmjs.org/mini-map/-/mini-map-1.0.0.tgz"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "pop-hash": {
+                                    "version": "1.0.1",
+                                    "from": "https://registry.npmjs.org/pop-hash/-/pop-hash-1.0.1.tgz",
+                                    "dependencies": {
+                                        "weak-map": {
+                                            "version": "1.0.5",
+                                            "from": "https://registry.npmjs.org/weak-map/-/weak-map-1.0.5.tgz"
+                                        }
+                                    }
+                                },
+                                "pop-iterate": {
+                                    "version": "1.0.1",
+                                    "from": "https://registry.npmjs.org/pop-iterate/-/pop-iterate-1.0.1.tgz"
+                                },
+                                "pop-observe": {
+                                    "version": "2.0.2",
+                                    "from": "https://registry.npmjs.org/pop-observe/-/pop-observe-2.0.2.tgz",
+                                    "dependencies": {
+                                        "pop-equals": {
+                                            "version": "1.0.0",
+                                            "from": "https://registry.npmjs.org/pop-equals/-/pop-equals-1.0.0.tgz",
+                                            "dependencies": {
+                                                "mini-map": {
+                                                    "version": "1.0.0",
+                                                    "from": "https://registry.npmjs.org/mini-map/-/mini-map-1.0.0.tgz"
+                                                }
+                                            }
+                                        },
+                                        "pop-has": {
+                                            "version": "1.0.0",
+                                            "from": "https://registry.npmjs.org/pop-has/-/pop-has-1.0.0.tgz",
+                                            "dependencies": {
+                                                "pop-equals": {
+                                                    "version": "1.0.0",
+                                                    "from": "https://registry.npmjs.org/pop-equals/-/pop-equals-1.0.0.tgz",
+                                                    "dependencies": {
+                                                        "mini-map": {
+                                                            "version": "1.0.0",
+                                                            "from": "https://registry.npmjs.org/mini-map/-/mini-map-1.0.0.tgz"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "pop-swap": {
+                                            "version": "1.0.0",
+                                            "from": "https://registry.npmjs.org/pop-swap/-/pop-swap-1.0.0.tgz"
+                                        }
+                                    }
+                                },
+                                "pop-swap": {
+                                    "version": "1.0.0",
+                                    "from": "https://registry.npmjs.org/pop-swap/-/pop-swap-1.0.0.tgz"
+                                },
+                                "pop-zip": {
+                                    "version": "1.0.0",
+                                    "from": "https://registry.npmjs.org/pop-zip/-/pop-zip-1.0.0.tgz"
+                                },
+                                "regexp-escape": {
+                                    "version": "0.0.1",
+                                    "from": "https://registry.npmjs.org/regexp-escape/-/regexp-escape-0.0.1.tgz"
+                                },
+                                "weak-map": {
+                                    "version": "1.0.5",
+                                    "from": "https://registry.npmjs.org/weak-map/-/weak-map-1.0.5.tgz"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "bluebird": {
+            "version": "3.4.1",
+            "from": "https://registry.npmjs.org/bluebird/-/bluebird-3.4.1.tgz"
+        },
+        "jszip": {
+            "version": "3.1.2",
+            "from": "https://registry.npmjs.org/jszip/-/jszip-3.1.2.tgz",
+            "dependencies": {
+                "core-js": {
+                    "version": "2.3.0",
+                    "from": "https://registry.npmjs.org/core-js/-/core-js-2.3.0.tgz"
+                },
+                "es6-promise": {
+                    "version": "3.0.2",
+                    "from": "https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz"
+                },
+                "lie": {
+                    "version": "3.1.0",
+                    "from": "https://registry.npmjs.org/lie/-/lie-3.1.0.tgz",
+                    "dependencies": {
+                        "immediate": {
+                            "version": "3.0.6",
+                            "from": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz"
+                        }
+                    }
+                },
+                "pako": {
+                    "version": "1.0.3",
+                    "from": "https://registry.npmjs.org/pako/-/pako-1.0.3.tgz"
+                },
+                "readable-stream": {
+                    "version": "2.0.6",
+                    "from": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz",
+                    "dependencies": {
+                        "core-util-is": {
+                            "version": "1.0.2",
+                            "from": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
+                        },
+                        "inherits": {
+                            "version": "2.0.3",
+                            "from": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz"
+                        },
+                        "isarray": {
+                            "version": "1.0.0",
+                            "from": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
+                        },
+                        "process-nextick-args": {
+                            "version": "1.0.7",
+                            "from": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz"
+                        },
+                        "string_decoder": {
+                            "version": "0.10.31",
+                            "from": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
+                        },
+                        "util-deprecate": {
+                            "version": "1.0.2",
+                            "from": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
+                        }
+                    }
+                }
+            }
+        },
+        "atob": {
+            "version": "2.0.3",
+            "from": "https://registry.npmjs.org/atob/-/atob-2.0.3.tgz"
+        },
+        "btoa": {
+            "version": "1.1.2",
+            "from": "https://registry.npmjs.org/btoa/-/btoa-1.1.2.tgz"
+        }
+    }
+}
