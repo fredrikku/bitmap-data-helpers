@@ -1,5 +1,5 @@
 {
-    "name": "@runkit/1r0d0r1_data-helper-module",
+    "name": "@runkit/rikku_data-helper-module",
     "version": "0.0.0-master",
     "main": "./lib/data-helper-module",
     "dependencies": {
